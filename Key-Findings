@@ -1,0 +1,21 @@
+I recently built a Machine Learning model to predict Alzheimer’s predisposition using a dataset of more than 74,000 records. By utilizing a Random Forest Classifier, I achieved a 71% accuracy rate in identifying potential risk factors.
+I used the data from Kaggle. 
+
+Key Findings:
+
+Age remains the primary driver, but BMI and Cognitive Test Scores followed closely as high-impact predictors.
+
+Modifiable factors like Diet, Sleep Quality, and Physical Activity showed measurable influence on the model’s decisions, highlighting the power of lifestyle interventions.
+
+Accuracy measures the total percentage of correct predictions out of all cases tested. Our result: 71%
+Out of every 100 people in your test set, your model correctly identified the status (either "Alzheimer's" or "No Alzheimer's") for 71 of them.
+
+Precision measures how many of the people the model labeled as having Alzheimer's actually had the disease. Our Result: 66% for having Alzheimer (1).
+When our model identifies a person and says "This person has Alzheimer's," it is correct 66% of the time.
+This also means 34% of the time, the model predicts someone has the disease when they actually do not (False Positives).
+
+In our results, our Recall for Alzheimer's was 64%.
+Recall asks "How many actual sick people did the model find?".
+The "Missed" Cases: Your recall of 64% means that for every 100 people who truly have Alzheimer's, your model successfully identifies 64 of them but misses 36 (False Negatives).
+False Negatives are more crucial than False Positives in clinical data, therefore further refinement is required. 
+
